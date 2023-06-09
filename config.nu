@@ -2,6 +2,10 @@
 # This allows using `let-env config = ($env.config | upsert hooks { ... })` later.
 let-env config = {
     hooks: {
+      pre_prompt: [],
+      env_change: {
+        PWD: []
+      }
     }
 }
 
@@ -16,5 +20,6 @@ def newpr [] {
   git push --set-upstream origin $current_branch; ^open $"https://github.com/($org_and_repo)/pull/new/($current_branch)"
 }
 
-# RTX
-source-env "/Users/jason/Library/Application Support/nushell/rtx.nu"
+# Shell integrations / helpers
+use direnv.nu
+use rtx.nu
