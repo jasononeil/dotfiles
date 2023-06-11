@@ -23,3 +23,4 @@ def newpr [] {
 # Shell integrations / helpers
 use direnv.nu
 use rtx.nu
+use goto.nu main
