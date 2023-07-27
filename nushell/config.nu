@@ -24,3 +24,4 @@ def newpr [] {
 use ~/workspace/dotfiles/nushell/direnv.nu
 use ~/workspace/dotfiles/nushell/rtx.nu
 use ~/workspace/dotfiles/nushell/goto.nu main
+use ~/workspace/dotfiles/nushell/nu_scripts/custom-completions/git/git-completions.nu *
