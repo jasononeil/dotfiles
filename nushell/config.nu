@@ -21,6 +21,6 @@ def newpr [] {
 }
 
 # Shell integrations / helpers
-use direnv.nu
-use rtx.nu
-use goto.nu main
+use ~/workspace/dotfiles/nushell/direnv.nu
+use ~/workspace/dotfiles/nushell/rtx.nu
+use ~/workspace/dotfiles/nushell/goto.nu main
