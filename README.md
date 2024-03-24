@@ -15,5 +15,7 @@ git submodule update
 ## Linking
 
 ```sh
+ln -s ~/workspace/dotfiles/fish/config.fish ~/.config/fish/
+ln -s ~/workspace/dotfiles/home-manager/ ~/.config/home-manager
 ln -s ~/workspace/dotfiles/nushell ~/Library/Application\ Support/
 ```
