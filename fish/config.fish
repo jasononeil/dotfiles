@@ -13,6 +13,10 @@ rtx activate fish | source
 # Add rust
 set PATH $HOME/.cargo/bin $PATH
 
+# Add nix
+set PATH $HOME/.nix-profile/bin $PATH
+set PATH /nix/var/nix/profiles/default/bin/ $PATH
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
     
