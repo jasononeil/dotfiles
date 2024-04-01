@@ -4,18 +4,18 @@
 # iTerm integration. Fetched from https://iterm2.com/documentation-shell-integration.html
 source ~/workspace/dotfiles/fish/iterm2_shell_integration.fish
 
-# Direnv
-source ~/workspace/dotfiles/fish/direnv.fish
-
-# RTX version switcher https://github.com/jdx/rtx
-rtx activate fish | source
-
 # Add rust
 set PATH $HOME/.cargo/bin $PATH
+
+# Direnv
+source ~/workspace/dotfiles/fish/direnv.fish
 
 # Add nix
 set PATH $HOME/.nix-profile/bin $PATH
 set PATH /nix/var/nix/profiles/default/bin/ $PATH
+
+# Add mise (asdf compatible version switcher)
+mise activate fish | source
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
