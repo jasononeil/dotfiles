@@ -14,12 +14,15 @@ source ~/workspace/dotfiles/fish/direnv.fish
 set PATH $HOME/.nix-profile/bin $PATH
 set PATH /nix/var/nix/profiles/default/bin/ $PATH
 
+# Add Rancher Desktop
+set PATH $HOME/.rd/bin $PATH
+
 # Add mise (asdf compatible version switcher)
 mise activate fish | source
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    
+
     # Jason's aliases
     alias gs="git status"
     alias gd="git diff"
