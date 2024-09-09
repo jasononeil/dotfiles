@@ -31,6 +31,7 @@ if status is-interactive
     alias killport="~/workspace/dotfiles/scripts/killport.nu"
     alias gom="git rev-parse --abbrev-ref origin/HEAD"
     alias gm="basename (gom)"
+    alias undo-commit="git reset --soft HEAD~1"
 
     # Set a CDPATH for fast directory switching to my code projects
     set -gx CDPATH $CDPATH . ~ $HOME/workspace $HOME/workspace/cultureamp
