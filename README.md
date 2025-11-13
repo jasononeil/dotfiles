@@ -18,4 +18,6 @@ git submodule update
 ln -s ~/workspace/dotfiles/fish/config.fish ~/.config/fish/
 ln -s ~/workspace/dotfiles/home-manager/ ~/.config/home-manager
 ln -s ~/workspace/dotfiles/nushell ~/Library/Application\ Support/
+ln -s ~/workspace/dotfiles/devbox-global/ ~/.local/share/devbox/global/default
+ln -s ~/.local/share/devbox/global/default ~/.local/share/devbox/global/current
 ```
