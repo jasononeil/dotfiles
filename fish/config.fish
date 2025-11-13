@@ -26,6 +26,9 @@ fish_add_path "$HOME/.local/bin"
 # Add devbox global install path
 eval "$(devbox global shellenv)"
 
+# Add global NPM tools from this repo
+fish_add_path "$HOME/workspace/dotfiles/global-npm-tools/node_modules/.bin"
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 

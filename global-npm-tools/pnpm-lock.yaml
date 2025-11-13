@@ -1,0 +1,286 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@anthropic-ai/claude-code':
+    specifier: ^2.0.37
+    version: 2.0.37
+  '@anthropic-ai/sandbox-runtime':
+    specifier: ^0.0.8
+    version: 0.0.8
+  opencode-ai:
+    specifier: ^1.0.62
+    version: 1.0.62
+
+packages:
+
+  /@anthropic-ai/claude-code@2.0.37:
+    resolution: {integrity: sha512-8d4qRGY9/LGqEbYNfno00wg0tprDC0dPNBBZHk8CVvl5vlB8PX2HVwlI6kok3ZNFBMDL+Hqjbp26xXC1hTL6Hw==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
+    optionalDependencies:
+      '@img/sharp-darwin-arm64': 0.33.5
+      '@img/sharp-darwin-x64': 0.33.5
+      '@img/sharp-linux-arm': 0.33.5
+      '@img/sharp-linux-arm64': 0.33.5
+      '@img/sharp-linux-x64': 0.33.5
+      '@img/sharp-win32-x64': 0.33.5
+    dev: false
+
+  /@anthropic-ai/sandbox-runtime@0.0.8:
+    resolution: {integrity: sha512-nyx7ceajblF8VGk3NeMeYSbkQYIDMgKBX94BIuHDxQ0ziYSrzX5wycUSaTP7Er7ku85jDb0kLo4MTqDcoeAc2Q==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
+    dependencies:
+      '@pondwader/socks5-server': 1.0.10
+      '@types/lodash-es': 4.17.12
+      commander: 12.1.0
+      lodash-es: 4.17.21
+      shell-quote: 1.8.3
+      zod: 3.25.76
+    dev: false
+
+  /@img/sharp-darwin-arm64@0.33.5:
+    resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
+    engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    optionalDependencies:
+      '@img/sharp-libvips-darwin-arm64': 1.0.4
+    dev: false
+    optional: true
+
+  /@img/sharp-darwin-x64@0.33.5:
+    resolution: {integrity: sha512-fyHac4jIc1ANYGRDxtiqelIbdWkIuQaI84Mv45KvGRRxSAa7o7d1ZKAOBaYbnepLC1WqxfpimdeWfvqqSGwR2Q==}
+    engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    optionalDependencies:
+      '@img/sharp-libvips-darwin-x64': 1.0.4
+    dev: false
+    optional: true
+
+  /@img/sharp-libvips-darwin-arm64@1.0.4:
+    resolution: {integrity: sha512-XblONe153h0O2zuFfTAbQYAX2JhYmDHeWikp1LM9Hul9gVPjFY427k6dFEcOL72O01QxQsWi761svJ/ev9xEDg==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@img/sharp-libvips-darwin-x64@1.0.4:
+    resolution: {integrity: sha512-xnGR8YuZYfJGmWPvmlunFaWJsb9T/AO2ykoP3Fz/0X5XV2aoYBPkX6xqCQvUTKKiLddarLaxpzNe+b1hjeWHAQ==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@img/sharp-libvips-linux-arm64@1.0.4:
+    resolution: {integrity: sha512-9B+taZ8DlyyqzZQnoeIvDVR/2F4EbMepXMc/NdVbkzsJbzkUjhXv/70GQJ7tdLA4YJgNP25zukcxpX2/SueNrA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@img/sharp-libvips-linux-arm@1.0.5:
+    resolution: {integrity: sha512-gvcC4ACAOPRNATg/ov8/MnbxFDJqf/pDePbBnuBDcjsI8PssmjoKMAz4LtLaVi+OnSb5FK/yIOamqDwGmXW32g==}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@img/sharp-libvips-linux-x64@1.0.4:
+    resolution: {integrity: sha512-MmWmQ3iPFZr0Iev+BAgVMb3ZyC4KeFc3jFxnNbEPas60e1cIfevbtuyf9nDGIzOaW9PdnDciJm+wFFaTlj5xYw==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@img/sharp-linux-arm64@0.33.5:
+    resolution: {integrity: sha512-JMVv+AMRyGOHtO1RFBiJy/MBsgz0x4AWrT6QoEVVTyh1E39TrCUpTRI7mx9VksGX4awWASxqCYLCV4wBZHAYxA==}
+    engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    optionalDependencies:
+      '@img/sharp-libvips-linux-arm64': 1.0.4
+    dev: false
+    optional: true
+
+  /@img/sharp-linux-arm@0.33.5:
+    resolution: {integrity: sha512-JTS1eldqZbJxjvKaAkxhZmBqPRGmxgu+qFKSInv8moZ2AmT5Yib3EQ1c6gp493HvrvV8QgdOXdyaIBrhvFhBMQ==}
+    engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    optionalDependencies:
+      '@img/sharp-libvips-linux-arm': 1.0.5
+    dev: false
+    optional: true
+
+  /@img/sharp-linux-x64@0.33.5:
+    resolution: {integrity: sha512-opC+Ok5pRNAzuvq1AG0ar+1owsu842/Ab+4qvU879ippJBHvyY5n2mxF1izXqkPYlGuP/M556uh53jRLJmzTWA==}
+    engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    optionalDependencies:
+      '@img/sharp-libvips-linux-x64': 1.0.4
+    dev: false
+    optional: true
+
+  /@img/sharp-win32-x64@0.33.5:
+    resolution: {integrity: sha512-MpY/o8/8kj+EcnxwvrP4aTJSWw/aZ7JIGR4aBeZkZw5B7/Jn+tY9/VNwtcoGmdT7GfggGIU4kygOMSbYnOrAbg==}
+    engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@pondwader/socks5-server@1.0.10:
+    resolution: {integrity: sha512-bQY06wzzR8D2+vVCUoBsr5QS2U6UgPUQRmErNwtsuI6vLcyRKkafjkr3KxbtGFf9aBBIV2mcvlsKD1UYaIV+sg==}
+    dev: false
+
+  /@types/lodash-es@4.17.12:
+    resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
+    dependencies:
+      '@types/lodash': 4.17.20
+    dev: false
+
+  /@types/lodash@4.17.20:
+    resolution: {integrity: sha512-H3MHACvFUEiujabxhaI/ImO6gUrd8oOurg7LQtS7mbwIXA/cUqWrvBsaeJ23aZEPk1TAYkurjfMbSELfoCXlGA==}
+    dev: false
+
+  /commander@12.1.0:
+    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
+    engines: {node: '>=18'}
+    dev: false
+
+  /lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+    dev: false
+
+  /opencode-ai@1.0.62:
+    resolution: {integrity: sha512-Pqxq3pOlGU3oTyuZ7t/uclv5RmS1cujKhSSpQ0BmTOm42cNzGGXDDHjQc0T8PDmAmWZfM8vtSeWZaDrGd9EMNg==}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      opencode-darwin-arm64: 1.0.62
+      opencode-darwin-x64: 1.0.62
+      opencode-darwin-x64-baseline: 1.0.62
+      opencode-linux-arm64: 1.0.62
+      opencode-linux-arm64-musl: 1.0.62
+      opencode-linux-x64: 1.0.62
+      opencode-linux-x64-baseline: 1.0.62
+      opencode-linux-x64-baseline-musl: 1.0.62
+      opencode-linux-x64-musl: 1.0.62
+      opencode-windows-x64: 1.0.62
+      opencode-windows-x64-baseline: 1.0.62
+    dev: false
+
+  /opencode-darwin-arm64@1.0.62:
+    resolution: {integrity: sha512-LbH66raWBtaypZ9rvswarRANI4mRISIubi0Iz8b+igJDzZ0KgwwdX9OuT+n2NbBWfl5oT2a6Zpit7bhkVW/s1g==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-darwin-x64-baseline@1.0.62:
+    resolution: {integrity: sha512-hgz2ZuKfuapahfVZ9nmELViOHrTVfJJdgqXkSSffYQH6CujvXnAveaAvsvAwDD/n5/0Rby7pcf65C0s/xtbj1g==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-darwin-x64@1.0.62:
+    resolution: {integrity: sha512-eyASropYVdWFfMEVQJzrXewV7WK5s69dBJbZGF7HUEV8kVnr3QNGyALiGJ0742Gcqo/TSSGIzJ4ZBHlgHHQzfQ==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-linux-arm64-musl@1.0.62:
+    resolution: {integrity: sha512-8IDZOMqfUwrjumZ1567UY8RnMY/R/20pyS6PdH5iPcsBUj0wSb/n0RvZC82+iQ+din6x+XN9n8K9AmOBijM4fg==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-linux-arm64@1.0.62:
+    resolution: {integrity: sha512-Bh2l9W1DI6XY7JVAV1ffju5Veo2jLf/uoLO/7ixwidgsqpRzHecr8qw5nCw99eu5orYssdec2p5/ZzEq4wuXkA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-linux-x64-baseline-musl@1.0.62:
+    resolution: {integrity: sha512-AgIIX14mylJxbKlquqyytOnn9WTcr3sVjSqMxgK6GSQw8KIGFg6FIvHpsAiaG8s3HXTzO9uIxud933SUMUYFUg==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-linux-x64-baseline@1.0.62:
+    resolution: {integrity: sha512-F1alPtvXTWjqNoLtmSRIWSz6WfM5JzP3Ny8mpCUgMhd4BSl3+yhaT9C4uDS3pn6AJc2Xz6Emz+mNryrZoH0hdQ==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-linux-x64-musl@1.0.62:
+    resolution: {integrity: sha512-NTNO9yncD5pXI/kopeiEuIUGbcYcvkT5t7iWaVLcbSTl1+rs/yruIfBOQpSulQ9sVcmqoPv7NqjlGke+9ghXxA==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-linux-x64@1.0.62:
+    resolution: {integrity: sha512-y4ofGuoqKB+GjNS+xe2J14smPFojD4od9YTZvqRnwr69C2uYO7bhUAhOriRUmLL+MwWVS2xtT9Es4OCo7mKAqg==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-windows-x64-baseline@1.0.62:
+    resolution: {integrity: sha512-PJhsplzc/n/EC2HOFsBzuklx1K9iY0mItnEzG5YquEdCfW33d0Nzp2izwYgKQhZ3u8EDuZs3ZB25O45ONqt5dA==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /opencode-windows-x64@1.0.62:
+    resolution: {integrity: sha512-gVy57ODaQ4E+V51IspOud4ltyj2RqrG+XoqVWM11WGObp8X/vKfEKnHmZ0moXcvKpgEAACHENdhx0Fo89uEJ9A==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /shell-quote@1.8.3:
+    resolution: {integrity: sha512-ObmnIF4hXNg1BqhnHmgbDETF8dLPCggZWBjkQfhZpbszZnYur5DUljTcCHii5LC3J5E0yeO/1LIMyH+UvHQgyw==}
+    engines: {node: '>= 0.4'}
+    dev: false
+
+  /zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+    dev: false

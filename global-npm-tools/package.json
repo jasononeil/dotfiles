@@ -1,0 +1,17 @@
+{
+  "name": "global-npm-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.0.37",
+    "@anthropic-ai/sandbox-runtime": "^0.0.8",
+    "opencode-ai": "^1.0.62"
+  }
+}

@@ -21,3 +21,7 @@ ln -s ~/workspace/dotfiles/nushell ~/Library/Application\ Support/
 ln -s ~/workspace/dotfiles/devbox-global/ ~/.local/share/devbox/global/default
 ln -s ~/.local/share/devbox/global/default ~/.local/share/devbox/global/current
 ```
+
+## NPM tools
+
+The `global-npm-tools` has a PNPM project where we can `pnpm add <tool>` and any binaries that tool makes available will be on the path for the whole machine.
