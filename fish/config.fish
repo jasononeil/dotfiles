@@ -23,11 +23,14 @@ set PATH $HOME/.rd/bin $PATH
 # Add path used by `uv`
 fish_add_path "$HOME/.local/bin"
 
-# Add devbox global install path
-eval "$(devbox global shellenv)"
-
-# Add global NPM tools from this repo
+# Add global NPM tools from this repo.
+# We'll also need to add the node version from this repo to that path.
 fish_add_path "$HOME/workspace/dotfiles/global-npm-tools/node_modules/.bin"
+fish_add_path "$HOME/workspace/dotfiles/.devbox/nix/profile/default/bin"
+
+# Add devbox global install path
+# Note: this seems to need to go after fish_add_path calls! Otherwise some of the paths disappear when in a devbox project.
+eval "$(devbox global shellenv)"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
