@@ -46,3 +46,7 @@ end
 # tabtab source for packages
 # uninstall by removing these lines
 [ -f ~/workspace/dotfiles/tabtab/fish/__tabtab.fish ]; and . ~/workspace/dotfiles/tabtab/fish/__tabtab.fish; or true
+
+# Granted
+source /Users/jason.oneil/.config/fish/completions/granted.fish
+alias assume="source /Users/jason.oneil/.local/share/devbox/global/default/.devbox/nix/profile/default/share/assume.fish"
