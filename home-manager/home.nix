@@ -25,11 +25,12 @@
     pkgs.fish
     pkgs.aws-vault
     pkgs.nushell
-    pkgs.llm
     pkgs.git-recent
     pkgs.mise
     pkgs.fzf
     pkgs.awscli2
+    pkgs.jaq
+    pkgs.uv
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the

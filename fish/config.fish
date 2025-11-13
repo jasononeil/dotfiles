@@ -18,7 +18,13 @@ set PATH /nix/var/nix/profiles/default/bin/ $PATH
 set PATH $HOME/.rd/bin $PATH
 
 # Add mise (asdf compatible version switcher)
-mise activate fish | source
+# mise activate fish | source
+
+# Add path used by `uv`
+fish_add_path "$HOME/.local/bin"
+
+# Add devbox global install path
+eval "$(devbox global shellenv)"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
