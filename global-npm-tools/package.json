@@ -8,10 +8,10 @@
   "license": "ISC",
   "dependencies": {
     "@amplitude/ampli": "^1.36.2",
-    "@anthropic-ai/claude-code": "^2.0.37",
+    "@anthropic-ai/claude-code": "^2.1.29",
     "@anthropic-ai/sandbox-runtime": "^0.0.8",
     "@github/copilot": "^0.0.355",
     "claude-code-costs": "^1.0.1",
-    "opencode-ai": "^1.0.62"
+    "opencode-ai": "^1.1.48"
   }
 }
