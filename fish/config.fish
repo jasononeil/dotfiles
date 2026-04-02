@@ -28,6 +28,9 @@ fish_add_path "$HOME/.local/bin"
 fish_add_path "$HOME/workspace/dotfiles/global-npm-tools/node_modules/.bin"
 fish_add_path "$HOME/workspace/dotfiles/.devbox/nix/profile/default/bin"
 
+# Add global Rust tools from this repo.
+fish_add_path "$HOME/workspace/dotfiles/global-rust-tools/.bin"
+
 # Add devbox global install path
 # Note: this seems to need to go after fish_add_path calls! Otherwise some of the paths disappear when in a devbox project.
 eval "$(devbox global shellenv)"

@@ -1,0 +1,11 @@
+[package]
+name = "global-rust-tools"
+version = "0.1.0"
+edition = "2021"
+
+# Empty lib to make this a valid Rust project
+[lib]
+path = "src/lib.rs"
+
+[package.metadata.bin]
+vibe = { git = "https://github.com/lynaghk/vibe", locked = true }
