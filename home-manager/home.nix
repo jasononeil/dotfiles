@@ -24,7 +24,6 @@
 
     pkgs.fish
     pkgs.aws-vault
-    pkgs.nushell
     pkgs.git-recent
     pkgs.mise
     pkgs.fzf
