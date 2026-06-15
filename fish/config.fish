@@ -59,3 +59,6 @@ end
 # Granted
 source /Users/jason.oneil/.config/fish/completions/granted.fish
 alias assume="source /Users/jason.oneil/.local/share/devbox/global/default/.devbox/nix/profile/default/share/assume.fish"
+
+# Desk-cli
+desk-cli shell-init fish | source
