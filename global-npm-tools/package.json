@@ -8,14 +8,14 @@
   "license": "ISC",
   "dependencies": {
     "@amplitude/ampli": "^1.36.3",
-    "@anthropic-ai/claude-code": "^2.1.150",
-    "@anthropic-ai/sandbox-runtime": "^0.0.52",
-    "@beads/bd": "1.0.4",
-    "@doist/todoist-cli": "^1.69.0",
-    "@earendil-works/pi-coding-agent": "^0.75.5",
-    "@github/copilot": "^1.0.54",
+    "@anthropic-ai/claude-code": "^2.1.199",
+    "@anthropic-ai/sandbox-runtime": "^0.0.63",
+    "@beads/bd": "1.0.5",
+    "@doist/todoist-cli": "^1.75.3",
+    "@earendil-works/pi-coding-agent": "^0.80.3",
+    "@github/copilot": "^1.0.68",
     "@strongdm/leash": "^1.1.7",
     "claude-code-costs": "^1.0.1",
-    "opencode-ai": "^1.15.10"
+    "opencode-ai": "^1.17.13"
   }
 }

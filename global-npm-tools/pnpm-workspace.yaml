@@ -1,0 +1,9 @@
+ignoredBuiltDependencies:
+  - '@beads/bd'
+  - '@doist/todoist-cli'
+  - '@google/genai'
+  - protobufjs
+
+onlyBuiltDependencies:
+  - '@anthropic-ai/claude-code'
+  - opencode-ai
