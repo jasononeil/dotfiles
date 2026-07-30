@@ -7,15 +7,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@amplitude/ampli": "^1.36.3",
-    "@anthropic-ai/claude-code": "^2.1.199",
-    "@anthropic-ai/sandbox-runtime": "^0.0.63",
-    "@beads/bd": "1.0.5",
-    "@doist/todoist-cli": "^1.75.3",
-    "@earendil-works/pi-coding-agent": "^0.80.3",
-    "@github/copilot": "^1.0.68",
+    "@amplitude/ampli": "^1.36.6",
+    "@anthropic-ai/claude-code": "^2.1.220",
+    "@anthropic-ai/sandbox-runtime": "^0.0.67",
+    "@beads/bd": "1.1.2",
+    "@doist/todoist-cli": "^3.0.6",
+    "@earendil-works/pi-coding-agent": "^0.83.0",
+    "@github/copilot": "^1.0.76",
     "@strongdm/leash": "^1.1.7",
     "claude-code-costs": "^1.0.1",
-    "opencode-ai": "^1.17.13"
+    "opencode-ai": "^1.18.9"
   }
 }
