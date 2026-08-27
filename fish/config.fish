@@ -42,10 +42,9 @@ if status is-interactive
     alias gs="git status"
     alias gd="git diff"
     alias l="ls -la"
-    alias newpr="~/workspace/dotfiles/scripts/newpr.nu"
-    alias killport="~/workspace/dotfiles/scripts/killport.nu"
     alias gom="git rev-parse --abbrev-ref origin/HEAD"
     alias gm="basename (gom)"
+    alias newpr="~/workspace/dotfiles/scripts/newpr.sh"
     alias undo-commit="git reset --soft HEAD~1"
 
     # Set a CDPATH for fast directory switching to my code projects
