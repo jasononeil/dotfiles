@@ -6,7 +6,8 @@
     "difftastic@latest",
     "gh@latest",
     "qrcode@latest",
-    "ripgrep@latest"
+    "ripgrep@latest",
+    "git-lfs@latest"
   ],
   "shell": {
     "init_hook": [
